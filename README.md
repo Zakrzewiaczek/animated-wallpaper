@@ -2,9 +2,10 @@
 Animated Windows wallpaper [especially for programmers :D ]
 
 # How to use this?
-  1. Download 'animated_wallpaper.bat' file
-  2. Move file to your autostart folder (default directory: %appdata%\Microsoft\Windows\Start Menu\Programs\Startup)
-  3. For the program to start working, restart your computer (Windows will open the program after a dozen to several dozen seconds) or open the 'animated_wallpaper.bat' file **(the program will start in a few to a dozen seconds!)**
+  1. Download 'animated_wallpaper.bat' and 'animation_wallpaper_autorun.bat' file
+  2. In 'animation_wallpaper_autorun.bat' file, change 'YOUR_FILE_PATH' to 'animated_wallpaper.bat' file path (don't move 'animated_wallpaper.bat' to autorun folder)
+  3. Move 'animation_wallpaper_autorun.bat' file to your autostart folder (default directory: %appdata%\Microsoft\Windows\Start Menu\Programs\Startup)
+  4. For the program to start working, restart your computer (Windows will open the program after a dozen to several dozen seconds) or open the 'animated_wallpaper.bat' file **(the program will start in a few to a dozen seconds!)**
 
   1. You can also copy the contents of the *.txt or *.ps1 file (the files are the same but have a different extension) and open them in powershell console.
   2. You can also copy the contents of the 'animated_wallpaper.bat' file and open it in cmd (Windows Command Prompt)
