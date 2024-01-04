@@ -14,7 +14,7 @@ Animated Windows wallpaper [especially for programmers :D ]
   3. The program will create a file with the given name. Then proceed with it as with the ''animated_wallpaper.bat'' file (goto 'How to use this?')
 
 # Importand informations
-  1. **Don't delete .png file from $home (C:\User\<YOUR_USERNAME>) location!**
+  1. **Don't delete .png file from $home (C:\User\<YOUR_USERNAME>) location!** (This is your wallpaper image)
   2. If you have any idea / issue - make new Pull request / Issue
 
 **Enjoy your wallpaper :)**
