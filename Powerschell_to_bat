@@ -1,5 +1,5 @@
-$file_path = "$home\Desktop\animated_wallpaper.txt"         #Input file path (like this)
-$output_file_path = "$home\Desktop\animated_wallpaper.bat"  #Output file path (like this)
+$file_path = "$home\Desktop\animated_wallpaper.txt"          #Input file path  (like this)
+$output_file_path = "$home\Desktop\animated_wallpaper.bat"   #Output file path (like this)
 
 function P2B {
     param
@@ -17,3 +17,5 @@ function P2B {
 }
 
 P2B -Path $file_path
+
+######   This program is changed version of @I-Am-Jakoby project :)   ######
