@@ -1,3 +1,5 @@
+$frame = $true # $true - additional "frame" made of "=" characters (it is longer or shorter depending on the time)
+
 while($true) {
    $year = (Get-Date).Year
    $month = (Get-Date).Month.ToString("00")
@@ -22,18 +24,19 @@ while($true) {
          Second: $second;
       }
    }"
-   
+
    $text = $text -split "`n" | ForEach-Object { "`n                                     " + $_ }
    $text = "`n`n`n`n`n" + $text + "`n`n`n`n`n`n"
-   
-   
-   $value = ((((Get-Date).Hour) * 3600 + ((Get-Date).Minute) * 60 + ((Get-Date).Second)) - 0) * (104 - 0) / (86399 - 0)
-   $value1 = 104 - $value
-   
-   $text = ((" " * $value1) + ("=" * $value)) + $text + ("=" * $value)
-   
-   
-   
+      
+   If($frame) {
+      $value = ((((Get-Date).Hour) * 3600 + ((Get-Date).Minute) * 60 + ((Get-Date).Second)) - 0) * (104 - 0) / (86399 - 0)
+      $value1 = 104 - $value
+      
+      $text = ((" " * $value1) + ("=" * $value)) + $text + ("=" * $value)
+
+   } Else {
+      $text = "`n" + $text
+   }
    
    Add-Type -AssemblyName System.Drawing
    
