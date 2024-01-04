@@ -1,7 +1,7 @@
 # animated-wallpaper
 Animated Windows wallpaper [especially for programmers :D ]
 
-#How to use this?
+# How to use this?
   1. Download 'animated_wallpaper.bat' file
   2. Move file to your autostart folder (default directory: %appdata%\Microsoft\Windows\Start Menu\Programs\Startup)
 
