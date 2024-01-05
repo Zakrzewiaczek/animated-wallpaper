@@ -16,8 +16,9 @@ Animated Windows wallpaper [especially for programmers :D ]
   3. The program will create a file with the given name. Then proceed with it as with the ''animated_wallpaper.bat'' file (goto 'How to use this?')
 
 # Importand informations
-  1. **Don't open program several times!!! This may cause the program to function incorrectly!**
-  2. If you have any idea / issue - make new Pull request / Issue
+  1. Program is working if you have .NET Framework. If you haven't - download it from Internet
+  2. **Don't open program several times!!! This may cause the program to function incorrectly!**
+  3. If you have any idea / issue - make new Pull request / Issue
 
 **Enjoy your wallpaper :)**
 
