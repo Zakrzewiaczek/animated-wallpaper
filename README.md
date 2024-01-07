@@ -22,3 +22,7 @@ Animated Windows wallpaper [especially for programmers :D ]
 **Enjoy your wallpaper :)**
 
 PS If you share a file (even with your own changes), please mention its author (meaning me)  :)
+
+# Antivirus detects a virus in a file?
+If your antivirus detects a virus in the 'animation_wallpaper.bat' file, create an exception for this file. This is normal (I have Avast myself and it shows the detected threat).
+The program is safe, you can analyze the program yourself.
